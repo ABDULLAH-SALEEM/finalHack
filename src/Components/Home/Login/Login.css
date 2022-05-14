@@ -1,0 +1,95 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.loginFormDiv{
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.loginForm > .email{
+    margin-bottom: 20px;
+}
+
+.loginForm > .password{
+    margin-bottom: 20px;
+}
+
+/* .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 20px;
+} */
+.loginWraper{
+    /* background-color: #f0f2f5;
+    height: 100vh; */
+}
+
+.Button{
+    background-color: #0573bb;
+    color: #f0f2f5;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.notReg{
+    background-color: #ffffff;
+    color: #8bc543;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: small;
+}
+
+.jumpToLogin{
+    text-decoration: none;
+    width: 100%;
+    background-color: #ffffff;
+    color: #8bc543;
+    float: right;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 768px){
+    .loginFormDiv{
+        width: 90%;
+    }
+    .headerDivEdit{
+        margin-top: -20px;
+    }
+}
+
+.name{
+    text-align: center;
+    color: #0573bb;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.err{
+    color: #b60000;
+    padding: 5px;
+}
+
+@media (max-width: 768px){
+    .name{
+        padding-top: 50px;
+    }
+    .headerDivEditLogin{
+        margin-top: -24px;
+    }
+}

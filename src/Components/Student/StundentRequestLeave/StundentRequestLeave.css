@@ -1,0 +1,14 @@
+.editReqLeaveButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #0573bb;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}

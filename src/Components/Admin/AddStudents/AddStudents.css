@@ -1,0 +1,27 @@
+#studentFile {
+    visibility: hidden;
+}
+
+/* .bloodRecieveSibmitBut {
+    margin: 'auto';
+    margin-top: '10px';
+    border-radius: '10px';
+    width: '50%';
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center'
+} */
+
+@media (max-width: 768px) {
+    .addStudentsArea {
+        padding-top: 50px;
+    }
+
+    .adminHeaderEdit {
+        margin-top: 0px;
+    }
+
+    .bloodRecieveSibmitBut {
+        width: 100%;
+    }
+}

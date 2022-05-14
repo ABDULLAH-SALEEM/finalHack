@@ -1,0 +1,33 @@
+.courseAddHearder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #0573bb;
+    color: white;
+    font-weight: 600;
+}
+
+.courseDivAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #0573bb;
+    border-bottom: 1px solid #0573bb;
+}
+
+.addCourseDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px){
+    .courseArea{
+        padding-top: 80px;
+    }
+    .adminHeaderEdit{
+        margin-top: 0px;
+    }
+}

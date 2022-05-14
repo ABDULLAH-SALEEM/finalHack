@@ -1,0 +1,31 @@
+.viewLeave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #0573bb;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.StudentDashboard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px){
+    .StudentDashboard{
+        padding-top: 50px;
+    }
+    .studentHeaderEdit{
+        margin-top: -18px;
+    }
+}

@@ -1,0 +1,11 @@
+.facebookfeed {
+    margin: auto;
+}
+
+.facebookfeed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}

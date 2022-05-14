@@ -1,0 +1,46 @@
+.courseDiv{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border: 1px solid;
+    flex-direction: column;
+    width: 250px;
+    padding: 15px;
+    background-color: #0573bb;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.courseDiv > div > span {
+    color: #8bc543;
+    font-weight: 600;
+}
+
+.courseHeading{
+    font-size: x-large;
+    text-align: center;
+    color: #8bc543;
+    /* margin-top: 15px; */
+    padding: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.courseDivMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+@media (max-width: 768px){
+    .courseHeading{
+        padding-top: 50px;
+    }
+    .headerDivEditCourses{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,62 @@
+.editReqButton{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #0573bb;
+    background-color:#8bc543 ;
+    cursor: pointer;
+    display: inline; 
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.recieveBloodForm >.nameInput , .recieveBloodForm >.emailInput, .recieveBloodForm >.phoneInput, .recieveBloodForm >.nicInput, .recieveBloodForm >.bloodInput, .recieveBloodForm >.illnessInput, .recieveBloodForm >.weightInput, .recieveBloodForm >.cityInput{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.recieveBloodForm >label >.uploadReports{
+    margin-top: 10px;
+    border: 2px solid #0573bb;
+    padding: 5px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: #0573bb;
+    color: white;
+}
+
+.recieveBloodForm >label >.uploadReports > .MuiSvgIcon-root{
+    color: white;
+}
+
+.bloodRecieveSibmitBut{
+    background-color: #0573bb;
+    color: #f0f2f5;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: x-large;
+    width: 100%;
+    outline: none;
+    margin-top: 10px;
+}
+
+#uploadReport{
+    display: none;
+}
+.reqHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reqHeader > .MuiSvgIcon-root{
+    color: #0573bb;
+    transform: scale(1.5);
+}
+
+.reqHeading{
+    font-size: large;
+    color: #0573bb;
+    font-weight: 600;
+}

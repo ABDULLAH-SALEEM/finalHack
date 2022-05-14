@@ -1,0 +1,130 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    background-color: #fff;
+    width: 100%;
+}
+
+.logoImg{
+    margin-left: 15px;
+    width: 90px;
+    padding: 5px;
+}
+.components>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 3vw;
+}
+#check{
+    display: none;
+}
+
+.components>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 3vw;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #0573bb;
+    cursor: pointer;
+}
+
+.loginButton{
+    background-color: #0573bb;
+    outline: none;
+    border: #0573bb;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .components{
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        height: 100vh;
+        background-color: #5fb0e6a5;
+        /* border-radius: 5px; */
+        padding: 0%;
+        margin: 0%;
+        left: -100%;
+        transition: all .5s;
+        color: #fff;
+    }
+    .components ul li a{
+        font-size: 1rem;
+        padding: .2rem;
+        top: 2rem;
+        position: relative;
+        display: inline-block;
+        color: #fff;
+    }
+    .components ul li a:hover,.components ul li a.active{
+        color: #ad8778;
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ .components{
+        left: 0;
+    }
+    .components ul{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .components li{
+        margin: 0%;
+        padding: 0%;
+        font-size: 2rem;
+    }
+    .toggle-button{
+        position: absolute;
+        top: .55rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        z-index: 10;
+    }
+    .toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: #0573bb;
+        border-radius: 10px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 2.5rem;
+        position: fixed;
+        z-index: 9;
+        background-color: #fff;
+        width: 100%;
+    }
+    .components li a button{
+        height: 2rem;
+        width: 4rem;
+        font-size: .6rem;
+        border-radius: 7px;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+
+    .logoImg{
+        margin-left: 15px;
+        width: 35px;
+    }
+}
