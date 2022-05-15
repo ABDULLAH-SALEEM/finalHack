@@ -36,6 +36,18 @@
     padding: 15px;
 }
 
+.editButtReqDisabled{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #0573bb;
+    background-color:#e9eee3 ;
+    cursor: pointer;
+    display: inline; 
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 @media (max-width: 768px){
     .courseHeading{
         padding-top: 50px;
