@@ -27,7 +27,7 @@ const Courses = () => {
                 <div><span>Instructor: </span>{ele.instructor}</div>
                 <div><span>Duration:</span>{ele.duration}</div>
                 <div><span>Addmission:</span>{ele.addmission}</div>
-                <div><RegisterationForm courseName={ele.courseName} /></div>
+                <div>{ele.addmission===('Open' || 'open' || 'OPEN')? <RegisterationForm courseName={ele.courseName} />:<button disabled className='editReqButtonDisabled'>Enroll Now</button>}</div>
             </div>
         )
     })
